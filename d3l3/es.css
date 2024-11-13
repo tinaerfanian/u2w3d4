@@ -1,0 +1,38 @@
+/* فونت هری پاتر */
+@font-face {
+    font-family: 'HarryPotter';
+    src: url('https://path-to-harry-potter-font.ttf');
+}
+
+body {
+    background-image: url('https://www.wallpaperphotomurals.com//Files/2/64000/64941/ProductPhotos/620/643412082.jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: 'HarryPotter', serif;
+}
+
+h1, h2 {
+    font-family: 'HarryPotter';
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    height: 250px;
+    object-fit: fill;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#carrello-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+}
